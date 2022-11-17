@@ -45,18 +45,18 @@
     </div>
     <div class="container mt-1 px-5 pt-3">
         <h4>
-            Toss coin as many as you want!
+            Toss as many coin as you want!
         </h4>
     </div>
-    <div class="container px-5">
-        <small id="inputHelp" class="form-text text-muted">Start from small number like 10, then gradually increase the number to 100, 1000, 10000 or more and see the results.</small>
+    <div class="container">
+        <small id="inputHelp" class="form-text text-muted">Toss multiple coins and see how many coin landed head and how many landed tail. If you take large number of coins, number of head and tail becomes closer. Hence, the possibility of getting head or tail is 50%. Start with a small number of coin such as 10, then gradually increase to 100, 1000, 10000 and so on. Check out the probability for different number of coins. </small>
     </div>
     <div class="container mt-1 px-5 py-1">
         <div class="row">
             <div class="col-sm-6">
                 <form>
                     <div class="form-group">
-                      <label for="ntoss" class="mb-1 mt-2"><h4>How many times you want to toss?</h4></label>
+                      <label for="ntoss" class="mb-1 mt-2"><h4>How many coins you want to toss?</h4></label>
                       <input type="number" class="form-control w-75" id="ntoss" min = "1" step="1" value="1">
                       <small id="inputHelp" class="form-text text-muted">[Range is 1 to 1000000]<br>[You can click Toss multiple time]</small><br>
                 
@@ -67,8 +67,8 @@
             </div>
             <div class="col-sm-6 d-flex pt-1 text-center">
                 <div class="row m-auto">
-                    <h3 class="result">Head:&nbsp;<span id="headCount">0</span> </h3>
-                    <h3 class="result">&nbsp;&nbsp;Tail:&nbsp;<span id="tailCount">0</span> </h3>
+                    <h3 class="result">Number of Head:&nbsp;<span id="headCount">0</span> </h3>
+                    <h3 class="result">&nbsp;&nbsp;Number of Tail:&nbsp;<span id="tailCount">0</span> </h3>
                 </div>
 
             </div>
