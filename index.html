@@ -43,7 +43,7 @@
     <div class="container text-center text-white p-3 rounded" style="background-color: darkorange;">
         <h1>Coin Toss</h1>
     </div>
-    <div class="container">
+    <div class="container mt-2">
         <small id="inputHelp" class="form-text text-muted">Toss multiple coins and see how many coin landed head and how many landed tail. If you take large number of coins, number of head and tail becomes closer. Hence, the possibility of getting head or tail is 50%. Start with a small number of coin such as 10, then gradually increase to 100, 1000, 10000 and so on. Check out the probability for different number of coins. </small>
     </div>
     <div class="container mt-1 px-5 py-1">
@@ -52,7 +52,7 @@
                 <form>
                     <div class="form-group">
                       <label for="ntoss" class="mb-1 mt-2"><h4>How many coins you want to toss?</h4></label>
-                      <input type="number" class="form-control w-75" id="ntoss" min = "1" step="1" value="1" onkeyup="resetbuttontext()">
+                      <input type="number" class="form-control w-75" id="ntoss" min = "1" step="1" value="1" onfocus="resetbuttontext()">
                       <small id="inputHelp" class="form-text text-muted">[Range is 1 to 1000000]<br>[You can click Toss multiple time]</small><br>
                 
                     </div>
