@@ -62,7 +62,7 @@
                 
                     </div>
                     <br>
-                    <button type="button" class="btn btn-warning w-75" onclick="tossCalculation()" >Toss!</button>
+                    <button id="tossbutton" type="button" class="btn btn-warning w-75" onclick="tossCalculation()" >Toss!</button>
                   </form>
             </div>
             <div class="col-sm-6 d-flex pt-1 text-center">
@@ -89,6 +89,7 @@
 
     <script>
         function tossCalculation() {
+		document.getElementById("tossbutton").innerHTML="Toss Again!";
             var toss_number = document.getElementById("ntoss").value;
             var head = 0;
             var tail = 0;
