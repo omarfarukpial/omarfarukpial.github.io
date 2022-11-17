@@ -31,20 +31,14 @@
                     font-size: large;
                     text-align: left;
                 }
-                #footer {
-                    position: absolute;
-                    bottom: 0;
-                }
+             
+           
+                
             }
-            @media only screen and (min-width: 600px) {
-                #footer {
-                    position: fixed;
-                    bottom: 0;
-                }
-            }
+            
     </style>
 </head>
-<body class="container h-100">
+<body >
 
     <div class="container text-center text-white p-3 rounded" style="background-color: darkorange;">
         <h1>Coin Toss</h1>
@@ -85,7 +79,7 @@
         <h4 class="fmessage">For <span id="tossNumber">0</span> coin flip the probabilty of getting "Head is <span id="pHead">0</span>%" and "Tail is <span id="pTail">0</span>%"</h4>
     </div>
 
-    <div id="footer" class="container text-center text-white mt-auto p-3 rounded" style="background-color: darkorange;">
+    <div  class="container text-center text-white fixed-bottom p-3 rounded" style="background-color: darkorange;">
         <h6>Developed by</h6>
         <h6>Omar Faruk Pial</h6>
     </div>
